@@ -36,8 +36,7 @@ No configuration is required. The prompt cache key always comes from the Pi sess
 
 ## Repository layout
 
-- `extensions/openai-responses-prompt-cache.ts` - npm package extension entrypoint included in the published tarball.
-- `.pi/extensions/openai-responses-prompt-cache.ts` - project-local copy for this repository, useful while developing in-place.
+- `extensions/openai-responses-prompt-cache.ts` - Pi extension entrypoint included in the published npm package.
 
 ## How it works
 
