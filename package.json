@@ -1,0 +1,39 @@
+{
+  "name": "pi-gpt-cache",
+  "version": "0.1.0",
+  "description": "Pi extension that adds prompt_cache_key to OpenAI Responses API requests for better prompt caching.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./extensions/openai-responses-prompt-cache.ts",
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi-coding-agent",
+    "openai",
+    "responses-api",
+    "prompt-cache"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/openai-responses-prompt-cache.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "scripts": {
+    "pack:dry-run": "npm pack --dry-run"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
